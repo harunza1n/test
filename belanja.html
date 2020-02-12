@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var apple = parseInt(prompt("Masukan jumlah apel ?"))
+        var grape = parseInt(prompt("Masukan jumlah anggur ?"))
+        var orange = parseInt(prompt("Masukan jumlah jeruk ?"))
+
+        var priceApple = 1000
+        var priceGrape = 15000
+        var priceOrange = 20000
+
+        var resultApple = apple * priceApple
+        var resultGrape = grape * priceGrape
+        var resultOrange = orange * priceOrange
+
+        var totalAllFruits = resultApple + resultGrape + resultOrange
+
+        alert("Detail belanja sebesar \n\n Apel: " + apple + " x " + priceApple
+            + " = " + resultApple +
+            "\n Anggur: " + grape + " x " + priceGrape + " = " + resultGrape +
+            "\n Jeruk: " + orange + " x " + priceOrange + " = " + resultOrange +
+            "\n\n Total Belanja " + totalAllFruits)
+    </script>
+</body>
+
+</html>
